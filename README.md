@@ -1,33 +1,20 @@
-# armstrong-number
+## armstrong-number/ narcissist-number
+The Armstrong Number Checker
 
-FIXME: description
+### What is does
+* This program checks whether it is an Armstrong Number
+* This program tests the number against five tests containing five assertions 
 
-## Installation
-
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar armstrong-number-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
+### Installation
+* Install Java Runtime Environment (JRE) from http://www.oracle.com/technetwork/java/javase/downloads/index.html
+* Install Leiningen using the instructions on the Leiningen home page at http://leiningen.org/ 
+   
+### How to run
+    $ lein run
+ 
+### How to test
+    $ lein test
+    
 ## License
 
 Copyright © 2019 FIXME
