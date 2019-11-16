@@ -20,7 +20,7 @@
               (breakdown (- m remainder) (+ pow 1) (conj digits digit)))))
   (breakdown n 1 []))
 
-(defn narcissist? [n]
+(defn narcissistic? [n]
   (let [digits (digits-breakdown n)
         size (count digits)]
     (= n (reduce
@@ -28,7 +28,7 @@
 
 (defn -main
   [& args]
-  (println (narcissist? 232)
-           (narcissist? 153)))
+  (println (narcissistic? 232)
+           (narcissistic? 153)))
 
 
