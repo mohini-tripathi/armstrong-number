@@ -5,7 +5,7 @@ Armstrong Number Checker
 * This program checks whether it is an Armstrong Number
 * This program tests the number against five tests containing five assertions 
 ### Explanation for functions used
-#### 1.breakdown function
+#### breakdown function
 * *breakdown* function contains 3 arguments, *m* (the number which needs to be broken down into digits), *pow* (power to be raised), *digits* (digits of the number). Initial values passed for each argument is n (input is given by the user), 1 (power), [] (a null vector) respectively.
 * Cond function is used to evaluate each condition one at a time. First condition: if *m*=0 then breakdown function will return *digits*, second condition: *remainder* is a variable which stores value of `(mod m (exp 10 pow)` i.e `n%(10^1)`, *digit* is another variable which stores value of `(/ remainder (exp 10 (- pow 1)` i.e `remainder/(10^(1-1))`.
 * *breakdown* function is recursively called with m as (m-remainder), pow as (pow+1), digits as (digits obtained in previous iterations conjoined with the new value stored in *digit*)
