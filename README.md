@@ -14,10 +14,10 @@ Armstrong Number Checker
 * Install Java Runtime Environment (JRE) from http://www.oracle.com/technetwork/java/javase/downloads/index.html
 * Install Leiningen using the instructions on the Leiningen home page at http://leiningen.org/ 
    
-### How to run
+### Run this program using following command 
     $ lein run
  
-### How to test
+### Test this program using following command 
     $ lein test
     
 ## License
