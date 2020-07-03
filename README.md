@@ -1,5 +1,5 @@
 ## armstrong-number/ narcissistic-number
-Armstrong Number Checker
+This program checks whether a number is Armstrong number or not
 
 ### purpose 
 * This program checks whether it is an Armstrong Number
