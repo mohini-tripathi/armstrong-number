@@ -1,7 +1,7 @@
 ## armstrong-number/ narcissistic-number
 This program checks whether a number is Armstrong number or not
 
-### purpose 
+### Purpose of this program 
 * This program checks whether it is an Armstrong Number
 * This program tests the number against five tests containing five assertions 
 ### Explanation for functions used
