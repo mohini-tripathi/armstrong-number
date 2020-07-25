@@ -14,10 +14,11 @@ This program checks whether a number is Armstrong number or not
 * Install Java Runtime Environment (JRE) from http://www.oracle.com/technetwork/java/javase/downloads/index.html
 * Install Leiningen using the instructions on the Leiningen home page at http://leiningen.org/ 
    
-### Run this program using following command 
+### Run this with
     $ lein run
  
-### Test this program using following command 
+### Test this with
+ 
     $ lein test
     
 ## License
