@@ -10,7 +10,7 @@ This program checks whether a number is Armstrong number or not
 * Cond function is used to evaluate each condition one at a time. First condition: if *m*=0 then breakdown function will return *digits*, second condition: *remainder* is a variable which stores value of `(mod m (exp 10 pow)` i.e `n%(10^1)`, *digit* is another variable which stores value of `(/ remainder (exp 10 (- pow 1)` i.e `remainder/(10^(1-1))`.
 * *breakdown* function is recursively called with m as (m-remainder), pow as (pow+1), digits as (digits obtained in previous iterations conjoined with the new value stored in *digit*)
 * After several iterations, `(-m remainder)` passes 0 as the value of m and the first condition is satisfied which eventually returns all digits of the number.
-### How to install
+### procedure to install
 * Install Java Runtime Environment (JRE) from http://www.oracle.com/technetwork/java/javase/downloads/index.html
 * Install Leiningen using the instructions on the Leiningen home page at http://leiningen.org/ 
    
